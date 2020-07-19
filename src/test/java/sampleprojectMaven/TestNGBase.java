@@ -45,6 +45,16 @@ public class TestNGBase {
 		 a.moveToElement(element);
 	 }
 	 
+	 public static void movedtoaction(WebElement element) {
+		 Actions a = new Actions(driver);
+		 a.moveToElement(element);
+	 }
+	 
+	 public static void movetdoaction(WebElement element) {
+		 Actions a = new Actions(driver);
+		 a.moveToElement(element);
+	 }
+	 
 	 public static void doubleaction(WebElement element) {
 		 Actions a = new Actions(driver);
 		 a.doubleClick(element);
