@@ -20,7 +20,7 @@ public class TestNG {
 	
 	WebDriver driver;
 	
-	
+	WebElement fdf;
 	@Test(priority=0)
 	private void tc1() throws InterruptedException {
 		
